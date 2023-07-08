@@ -1,0 +1,23 @@
+input,select{
+    width: 100%;
+    /* margin-bottom: 6px !important; */
+    /* border: none; */
+    outline: none;
+    /* height: 39px; */
+    box-shadow: 1px 0px 1px 0px grey !important;
+    border-radius: 2px;
+}
+th{
+    font-weight: 400;
+}
+.myitems{
+    min-height: 300px !important;
+}
+
+
+.fixeds{
+    position: relative;
+    /* margin-top:50px !important; */
+    /* width: 100%; */
+
+}
