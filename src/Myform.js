@@ -40,10 +40,19 @@ const MyComponent = () => {
     }
   };
 
+
+  // save function
+
+  const save=()=>{
+    alert("save is happening");
+  }
   return (
-    <div>
+    <div className='m-3'>
       <h5>Text Input</h5>
       <input type="text" value={inputValue} onChange={handleInputChange} style={{width:'40%'}}  className='m-2'/>
+
+      <input type='text' placeholder='please enter the name please'/>
+      <button className='btn btn-primary my-3' onClick={save}>save the items</button>
     </div>
   );
 };
