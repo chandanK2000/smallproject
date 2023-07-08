@@ -46,6 +46,10 @@ const MyComponent = () => {
   const save=()=>{
     alert("save is happening");
   }
+
+    const deletes=()=>{
+    alert("deletes is happening");
+  }
   return (
     <div className='m-3'>
       <h5>Text Input</h5>
@@ -53,6 +57,8 @@ const MyComponent = () => {
 
       <input type='text' placeholder='please enter the name please'/>
       <button className='btn btn-primary my-3' onClick={save}>save the items</button>
+      <button className='btn btn-primary my-3' onClick={deletes}>delete the items</button>
+
     </div>
   );
 };
